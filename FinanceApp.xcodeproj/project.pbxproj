@@ -13,7 +13,42 @@
 		630CB57927E8B23F007993AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630CB57727E8B23F007993AF /* Main.storyboard */; };
 		630CB57B27E8B240007993AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630CB57A27E8B240007993AF /* Assets.xcassets */; };
 		630CB57E27E8B240007993AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630CB57C27E8B240007993AF /* LaunchScreen.storyboard */; };
+		630CB58B27E8BABA007993AF /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630CB58A27E8BABA007993AF /* OnboardingViewController.swift */; };
+		630CB58E27E8D50D007993AF /* UiView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630CB58D27E8D50D007993AF /* UiView+Extension.swift */; };
+		630CB59027E8D6BC007993AF /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630CB58F27E8D6BC007993AF /* OnboardingSlide.swift */; };
+		630CB59227E8E3E9007993AF /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630CB59127E8E3E9007993AF /* OnboardingCollectionViewCell.swift */; };
+		6322E2A42804907300089971 /* Savings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6322E2A32804907300089971 /* Savings.swift */; };
+		6322E2A62804909700089971 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6322E2A52804909700089971 /* Loan.swift */; };
+		6322E2A8280490B200089971 /* Mortgage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6322E2A7280490B200089971 /* Mortgage.swift */; };
+		6332DE8E27E98F6C000DECB6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6332DE8D27E98F6C000DECB6 /* HomeViewController.swift */; };
+		633A917C27F1F44900357D6D /* SavingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A917B27F1F44900357D6D /* SavingsViewController.swift */; };
+		633A917E27F1F47100357D6D /* ComInterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A917D27F1F47100357D6D /* ComInterestViewController.swift */; };
+		633A918027F1F48700357D6D /* LoansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A917F27F1F48700357D6D /* LoansViewController.swift */; };
+		633A918227F2207000357D6D /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A918127F2207000357D6D /* MainTabBarViewController.swift */; };
+		6369393E27EED3590050234C /* HelperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6369393D27EED3590050234C /* HelperViewController.swift */; };
+		6375ECF228053F1F00A04E33 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6375ECF128053F1F00A04E33 /* UIViewController+Extension.swift */; };
+		6375ECF42805410D00A04E33 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6375ECF32805410D00A04E33 /* UserDefaults+Extension.swift */; };
+		63CD188827F88EF900B35AD5 /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63CD188727F88EF900B35AD5 /* Keyboard.xib */; };
+		63CD188C27F8903C00B35AD5 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CD188B27F8903C00B35AD5 /* Keyboard.swift */; };
+		63F24E11280345030051A108 /* CompoundSavings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F24E10280345030051A108 /* CompoundSavings.swift */; };
+		63F24E1328034A0A0051A108 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F24E1228034A0A0051A108 /* Double.swift */; };
+		63F24E1528040EDB0051A108 /* TextFieldsWithPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F24E1428040EDB0051A108 /* TextFieldsWithPrefix.swift */; };
+		63F24E1728041A920051A108 /* CalculationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F24E1628041A920051A108 /* CalculationHelper.swift */; };
+		63F24E192804258D0051A108 /* MortgageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F24E182804258D0051A108 /* MortgageViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63B2192E27F832660058FA37 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		630CB56E27E8B23F007993AF /* FinanceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +59,28 @@
 		630CB57A27E8B240007993AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		630CB57D27E8B240007993AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		630CB57F27E8B240007993AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		630CB58A27E8BABA007993AF /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		630CB58D27E8D50D007993AF /* UiView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiView+Extension.swift"; sourceTree = "<group>"; };
+		630CB58F27E8D6BC007993AF /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		630CB59127E8E3E9007993AF /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		6322E2A32804907300089971 /* Savings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Savings.swift; sourceTree = "<group>"; };
+		6322E2A52804909700089971 /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
+		6322E2A7280490B200089971 /* Mortgage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mortgage.swift; sourceTree = "<group>"; };
+		6332DE8D27E98F6C000DECB6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		633A917B27F1F44900357D6D /* SavingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsViewController.swift; sourceTree = "<group>"; };
+		633A917D27F1F47100357D6D /* ComInterestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComInterestViewController.swift; sourceTree = "<group>"; };
+		633A917F27F1F48700357D6D /* LoansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoansViewController.swift; sourceTree = "<group>"; };
+		633A918127F2207000357D6D /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		6369393D27EED3590050234C /* HelperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperViewController.swift; sourceTree = "<group>"; };
+		6375ECF128053F1F00A04E33 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		6375ECF32805410D00A04E33 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		63CD188727F88EF900B35AD5 /* Keyboard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Keyboard.xib; sourceTree = "<group>"; };
+		63CD188B27F8903C00B35AD5 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		63F24E10280345030051A108 /* CompoundSavings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompoundSavings.swift; sourceTree = "<group>"; };
+		63F24E1228034A0A0051A108 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		63F24E1428040EDB0051A108 /* TextFieldsWithPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsWithPrefix.swift; sourceTree = "<group>"; };
+		63F24E1628041A920051A108 /* CalculationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationHelper.swift; sourceTree = "<group>"; };
+		63F24E182804258D0051A108 /* MortgageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +113,117 @@
 		630CB57027E8B23F007993AF /* FinanceApp */ = {
 			isa = PBXGroup;
 			children = (
-				630CB57127E8B23F007993AF /* AppDelegate.swift */,
-				630CB57327E8B23F007993AF /* SceneDelegate.swift */,
-				630CB57527E8B23F007993AF /* ViewController.swift */,
-				630CB57727E8B23F007993AF /* Main.storyboard */,
-				630CB57A27E8B240007993AF /* Assets.xcassets */,
-				630CB57C27E8B240007993AF /* LaunchScreen.storyboard */,
+				63CD188627F88ED700B35AD5 /* FinanceKeyboard */,
+				630CB58C27E8D4A8007993AF /* Extensions */,
+				630CB58827E8B99F007993AF /* Models */,
+				630CB58727E8B983007993AF /* Controllers */,
+				630CB58527E8B369007993AF /* Views */,
+				630CB58627E8B94C007993AF /* Resources */,
 				630CB57F27E8B240007993AF /* Info.plist */,
 			);
 			path = FinanceApp;
+			sourceTree = "<group>";
+		};
+		630CB58527E8B369007993AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				630CB57C27E8B240007993AF /* LaunchScreen.storyboard */,
+				630CB57727E8B23F007993AF /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		630CB58627E8B94C007993AF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				630CB57A27E8B240007993AF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		630CB58727E8B983007993AF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				633A917A27F1F42600357D6D /* TabView */,
+				6369393C27EED3390050234C /* HelperAlert */,
+				6332DE8C27E98F3F000DECB6 /* Home */,
+				630CB58927E8B9DE007993AF /* Onboarding */,
+				630CB57127E8B23F007993AF /* AppDelegate.swift */,
+				630CB57327E8B23F007993AF /* SceneDelegate.swift */,
+				630CB57527E8B23F007993AF /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		630CB58827E8B99F007993AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				630CB58F27E8D6BC007993AF /* OnboardingSlide.swift */,
+				63F24E10280345030051A108 /* CompoundSavings.swift */,
+				6322E2A32804907300089971 /* Savings.swift */,
+				6322E2A52804909700089971 /* Loan.swift */,
+				6322E2A7280490B200089971 /* Mortgage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		630CB58927E8B9DE007993AF /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				630CB58A27E8BABA007993AF /* OnboardingViewController.swift */,
+				630CB59127E8E3E9007993AF /* OnboardingCollectionViewCell.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		630CB58C27E8D4A8007993AF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				630CB58D27E8D50D007993AF /* UiView+Extension.swift */,
+				63F24E1228034A0A0051A108 /* Double.swift */,
+				63F24E1428040EDB0051A108 /* TextFieldsWithPrefix.swift */,
+				63F24E1628041A920051A108 /* CalculationHelper.swift */,
+				6375ECF128053F1F00A04E33 /* UIViewController+Extension.swift */,
+				6375ECF32805410D00A04E33 /* UserDefaults+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6332DE8C27E98F3F000DECB6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6332DE8D27E98F6C000DECB6 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		633A917A27F1F42600357D6D /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				633A917B27F1F44900357D6D /* SavingsViewController.swift */,
+				633A917D27F1F47100357D6D /* ComInterestViewController.swift */,
+				633A917F27F1F48700357D6D /* LoansViewController.swift */,
+				633A918127F2207000357D6D /* MainTabBarViewController.swift */,
+				63F24E182804258D0051A108 /* MortgageViewController.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		6369393C27EED3390050234C /* HelperAlert */ = {
+			isa = PBXGroup;
+			children = (
+				6369393D27EED3590050234C /* HelperViewController.swift */,
+			);
+			path = HelperAlert;
+			sourceTree = "<group>";
+		};
+		63CD188627F88ED700B35AD5 /* FinanceKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				63CD188727F88EF900B35AD5 /* Keyboard.xib */,
+				63CD188B27F8903C00B35AD5 /* Keyboard.swift */,
+			);
+			path = FinanceKeyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +236,7 @@
 				630CB56A27E8B23F007993AF /* Sources */,
 				630CB56B27E8B23F007993AF /* Frameworks */,
 				630CB56C27E8B23F007993AF /* Resources */,
+				63B2192E27F832660058FA37 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -127,6 +287,7 @@
 			files = (
 				630CB57E27E8B240007993AF /* LaunchScreen.storyboard in Resources */,
 				630CB57B27E8B240007993AF /* Assets.xcassets in Resources */,
+				63CD188827F88EF900B35AD5 /* Keyboard.xib in Resources */,
 				630CB57927E8B23F007993AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +299,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F24E1328034A0A0051A108 /* Double.swift in Sources */,
+				63F24E11280345030051A108 /* CompoundSavings.swift in Sources */,
 				630CB57627E8B23F007993AF /* ViewController.swift in Sources */,
+				6322E2A42804907300089971 /* Savings.swift in Sources */,
 				630CB57227E8B23F007993AF /* AppDelegate.swift in Sources */,
+				63CD188C27F8903C00B35AD5 /* Keyboard.swift in Sources */,
+				630CB58E27E8D50D007993AF /* UiView+Extension.swift in Sources */,
+				6375ECF228053F1F00A04E33 /* UIViewController+Extension.swift in Sources */,
+				63F24E192804258D0051A108 /* MortgageViewController.swift in Sources */,
+				6369393E27EED3590050234C /* HelperViewController.swift in Sources */,
+				633A918027F1F48700357D6D /* LoansViewController.swift in Sources */,
+				6322E2A62804909700089971 /* Loan.swift in Sources */,
+				6332DE8E27E98F6C000DECB6 /* HomeViewController.swift in Sources */,
+				633A917E27F1F47100357D6D /* ComInterestViewController.swift in Sources */,
+				633A918227F2207000357D6D /* MainTabBarViewController.swift in Sources */,
+				63F24E1728041A920051A108 /* CalculationHelper.swift in Sources */,
 				630CB57427E8B23F007993AF /* SceneDelegate.swift in Sources */,
+				633A917C27F1F44900357D6D /* SavingsViewController.swift in Sources */,
+				6322E2A8280490B200089971 /* Mortgage.swift in Sources */,
+				630CB59027E8D6BC007993AF /* OnboardingSlide.swift in Sources */,
+				630CB59227E8E3E9007993AF /* OnboardingCollectionViewCell.swift in Sources */,
+				63F24E1528040EDB0051A108 /* TextFieldsWithPrefix.swift in Sources */,
+				6375ECF42805410D00A04E33 /* UserDefaults+Extension.swift in Sources */,
+				630CB58B27E8BABA007993AF /* OnboardingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +474,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,6 +502,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

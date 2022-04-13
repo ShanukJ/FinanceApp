@@ -7,23 +7,54 @@
 
 import UIKit
 
+
 class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        viewWillAppear(true)
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+            super.viewWillAppear(animated)
+            navigationController?.navigationBar.prefersLargeTitles = false
 
-    /*
-    // MARK: - Navigation
+            let appearance = UINavigationBarAppearance()
+            appearance.backgroundColor = .tertiarySystemFill
+            appearance.titleTextAttributes = [.foregroundColor: UIColor.systemBlue]
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+            navigationController?.navigationBar.tintColor = .systemBlue
+            navigationController?.navigationBar.standardAppearance = appearance
+            navigationController?.navigationBar.compactAppearance = appearance
+            navigationController?.navigationBar.scrollEdgeAppearance = appearance
     }
-    */
-
+    
+    
+    @IBAction func showHelper(_ sender: Any) {
+        
+        let helperView = storyboard?.instantiateViewController(withIdentifier: "helperView") as! UINavigationController
+        helperView.modalPresentationStyle = .pageSheet
+        helperView.modalTransitionStyle = .coverVertical
+        present(helperView, animated: true, completion: nil)
+    }
+    
+    
+    @IBAction func didTapSavings(_ sender: UIButton) {
+        let tbc = self.storyboard?.instantiateViewController(withIdentifier:"MainTabBar") as! UITabBarController
+           tbc.selectedIndex = 1
+        self.show(tbc, sender: self)
+    }
+    
+    @IBAction func didtapLoans(_ sender: UIButton) {
+        let tbc = self.storyboard?.instantiateViewController(withIdentifier:"MainTabBar") as! UITabBarController
+           tbc.selectedIndex = 2
+        self.show(tbc, sender: self)
+    }
+    
+    @IBAction func didtapMortgages(_ sender: UIButton) {
+        let tbc = self.storyboard?.instantiateViewController(withIdentifier:"MainTabBar") as! UITabBarController
+           tbc.selectedIndex = 3
+        self.show(tbc, sender: self)
+    }
+    
 }
